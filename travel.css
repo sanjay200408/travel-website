@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+ flex-wrap: wrap;
+    
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+gap:10px;
+flex-wrap: wrap;
+}
+.icon{
+height: 20px;
+
+
+}
+.head{
+    text-align: center;
+}
+.main-heading{
+    font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.icon-area{
+ margin-left: 10px;   
+ display: flex;
+ align-items: center;
+ gap:10px;
+
+}
+.icon-name{
+    font-weight: bolder;
+}
+.menu-area{
+
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+   
+transition:transform 0.5s, background-color 0.5s;
+}
+li:hover{
+transform: scale(1.1);
+background-attachment:aliceblue;
+border-bottom:1px solid black;
+cursor: pointer;
+}
+.main-content{
+    background-image:url('images/card1.jpg' );
+    height: 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+.servises{
+ display: flex;  
+ flex-wrap: wrap; 
+ width: 100%;
+ margin-top: 20px;
+ justify-content: space-evenly;
+}
+.servises-heading{
+
+  text-align: center;  
+  margin-top: 30px;
+}
+.card1,.card2,.card3,.img1,.img2,.img3{
+max-width: 300px;
+border: 1px solid black;
+text-align: center;
+border-radius: 5px;
+}
+.about{
+    padding: 20px;
+display: flex;
+flex-wrap:wrap;
+gap:10px;
+background-color:aliceblue ;
+justify-content: space-evenly;
+}
+.side-img{
+    max-width: 400px;
+    padding-top: 20px;
+}
+.side-heading{
+max-width: 500px;
+text-align: justify;
+
+}
+.g1,.g2,.g3,.g4,.g5,.g6{
+justify-content: space-evenly;
+padding: 40px;
+height: 200px;
+width: 300px;
+cursor: pointer;
+transition: transform 1s;
+
+}
+.g1:hover,.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover{
+transform: scale(1.1);
+
+
+
+}
+.gellery-text{
+
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center; 
+   justify-content: space-evenly;
+}
